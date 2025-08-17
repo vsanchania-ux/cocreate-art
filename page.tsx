@@ -394,7 +394,7 @@ export default function Page() {
                   className="absolute left-0 top-0 z-10"
                   width={CANVAS_W}
                   height={CANVAS_H}
-                  style={{ touchAction: "none" }}
+                  style={{ pointerEvents: "none", touchAction: "none" }}
                 />
                 <canvas
                   ref={canvasRef}
